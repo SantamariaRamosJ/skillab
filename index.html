@@ -22,21 +22,19 @@
             margin:0px;
         }
 
-        /* #nav-item{
-            padding-right: 60px;
-        }
-        #inicio{
-            padding-right: 40px; */
-        
-
         #navbar-background{
             background-color: transparent;
             padding-top: 25px;
             padding-bottom: 25px;
             transition: padding-top 0.3s, padding-bottom 0.3s;
             border: none;
+            
 
         }
+
+        #navbar-background.scrolled{
+        background-color: #0D0D0D;
+            }
 
         @media (max-width: 400px)  {#navbar-background{
             
@@ -65,10 +63,6 @@
 
     
    .image-logo{
-        /* height: 2rem; */
-/*         
-        margin-right: 20px;
-        margin-left: 13px; */
         width: 12em;
         margin-left: 25px;
         
@@ -88,7 +82,13 @@
             }
         }
 
-       
+        .nav-item{
+            margin-right: 50px;
+            color: white;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+            letter-spacing: 2px;
+        }
     </style>
 
 <!--Navbar-->
@@ -100,7 +100,7 @@
             <i class="fas fa-bars"></i>
         </button>
         <div class="navbar-collapse collapse" id="navbarResponsive" style="">
-            <ul class="navbar-nav text-uppercase ml-auto">
+            <ul class="navbar-nav text-uppercase ml-auto mr-5">
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
             </li>
@@ -162,6 +162,7 @@
     #button-header{
         background-color:#30478C ;
         border-color:#30478C ;
+        border-radius: 10px;
         
     }
     
@@ -169,6 +170,7 @@
     #button-header:hover{
         background-color:#304173;
         border-color: #304173;
+        border-radius: 10px;
     }
 
     #text-button{
@@ -204,8 +206,8 @@
                 ABOUT US
             </h2>
         </div>
-        <div class="col-lg-12 d-flex align-items-center justify-content-center">
-            <p>
+        <div class="col-lg-12 d-flex align-items-center justify-content-center text-justify">
+            <p class="">
                 Dev_Brotherhood is a creative software development company that builds everything 
                 from beautiful websites to innovative mobile applications. We pride ourselves in our 
                 engineering excellence and the work we do. While keeping current with the latest technologies, we are always
@@ -218,6 +220,22 @@
     </div>
     
 </div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script>
+    $(window).scroll(function(){
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 20);
+    });
+
+  
+
+</script>
 
 </body>
 </html>
