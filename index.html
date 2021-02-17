@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!--Bootstrap font-awesome CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <title>Dev_Brotherhood</title>
+</head>
+<body>
+    <style>
+
+        *{
+            padding: 0px;
+            box-sizing: border-box;
+            margin:0px;
+        }
+
+        /* #nav-item{
+            padding-right: 60px;
+        }
+        #inicio{
+            padding-right: 40px; */
+        
+
+        #navbar-background{
+            background-color: transparent;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            transition: padding-top 0.3s, padding-bottom 0.3s;
+            border: none;
+
+        }
+
+        @media (max-width: 400px)  {#navbar-background{
+            
+           background-color: #0D0D0D;
+        }
+        }
+
+        .masthead{
+            text-align: center;
+            color: white;
+            background-image: url("./images/header.png");
+            /* opacity: .9; */
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: cover;
+            min-height: 30rem;
+            height: 100vh;
+            overflow-x: hidden;
+            
+            
+            
+        }
+
+    
+
+    
+   .image-logo{
+        /* height: 2rem; */
+/*         
+        margin-right: 20px;
+        margin-left: 13px; */
+        width: 12em;
+        margin-left: 25px;
+        
+
+    }
+
+    #nav-link-id{
+        color: white;
+        
+    }
+
+   
+    @media (max-width: 400px)  {
+        .image-logo {
+            
+            width: 7em;
+            }
+        }
+
+       
+    </style>
+
+<!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar-background">
+        <div class="container-fluid">
+        <img class="img-fluid image-logo"  src="./images/logo.png" alt="Logo Brotherhood Engineering Software">
+        <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarResponsive" style="">
+            <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+<style>
+    #welcome{
+        font-size: 45px;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 2px black;
+    }
+    #name{
+    font-size: 60px;
+    background: -webkit-linear-gradient(#30478C, #C4F2EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+    font-weight: normal;
+    
+    text-shadow: 1px 1px 2px black, 0 0 1em #30478C, 0 0 0.2em #C4F2EE;
+    
+    
+     
+}
+
+    #making{
+        font-size: 45px;
+        font-style: italic;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px 2px black;
+        border: 2px solid white;
+        box-sizing: border-box;
+        box-shadow: 10px 5px 5px black;
+        
+    }
+
+    @media (max-width: 400px)  {
+#name, #welcome, #making{
+        
+    font-size: 30px;
+        }
+    }
+
+    #button-header{
+        background-color:#30478C ;
+        border-color:#30478C ;
+        
+    }
+    
+    
+    #button-header:hover{
+        background-color:#304173;
+        border-color: #304173;
+    }
+
+    #text-button{
+        color: white;
+    }
+  
+
+   
+    
+</style>
+
+    <header class="masthead" id="home">
+        <div class="container-fluid p-0 d-flex align-items-center justify-content-center h-100">
+        <div class="intro-text d-flex align-items-center justify-content-center align-content-center flex-column h-100 w-100">
+            <div class="intro-lead-in  d-flex align-items-center justify-content-center mb-0"> <h1 class="mt-5 "id="welcome">Welcome To </h1>
+                </div> <br>
+                <h1 class="d-flex align-items-center justify-content-center mb-0 pb-2 mb-4" id="name">Dev_Brotherhood Technologies</h1>
+            <div id="making" class="intro-heading text-uppercase scope-paxico d-flex align-items-center justify-content-center">
+                <h4 class="pr-4 pl-4">Making a Better World</h4></div>
+            <a id="button-header" class="btn btn-xl text-uppercase js-scroll-trigger mt-5 pr-5 pl-5 pt-4 pb-4" href="#about">
+                <p class="m-0" id="text-button"><b>Tell Me More</b></p></a>
+        </div>
+        </div>
+    </header>
+<section class="p-5">
+
+</section>
+
+<div class="container d-flex align-items-center justify-content-center">
+    <div class="row">
+        <div class="col-lg-12 d-flex align-items-center justify-content-center mb-4">
+            <h2 class="">
+                ABOUT US
+            </h2>
+        </div>
+        <div class="col-lg-12 d-flex align-items-center justify-content-center">
+            <p>
+                Dev_Brotherhood is a creative software development company that builds everything 
+                from beautiful websites to innovative mobile applications. We pride ourselves in our 
+                engineering excellence and the work we do. While keeping current with the latest technologies, we are always
+                 looking for new interesting and challenging projects to take on. If you enjoy thinking outside of the box, 
+                 we'd enjoy working with you.
+                
+            </p>
+        </div>
+        
+    </div>
+    
+</div>
+
+</body>
+</html>
