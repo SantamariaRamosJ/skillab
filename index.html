@@ -36,7 +36,17 @@
         background-color: #0D0D0D;
             }
 
-        @media (max-width: 400px)  {#navbar-background{
+        @media (max-width: 420px)  {#navbar-background{
+            
+           background-color: #0D0D0D;
+        }
+        }
+
+         #navbar-background.scrolled{
+        background-color: #0D0D0D;
+            }
+
+        @media (max-width: 280px)  {#navbar-background{
             
            background-color: #0D0D0D;
         }
@@ -71,12 +81,20 @@
         
     }
    
-    @media (max-width: 400px)  {
+    @media (max-width: 420px)  {
         .image-logo {
             
             width: 7em;
+            margin:0;
             }
         }
+
+    @media (max-width: 280px)  {
+    .image-logo {
+        
+        width: 5em;
+        }
+    }
 
         .nav-item{
             margin-right: 50px;
@@ -148,7 +166,7 @@
         
     }
 
-    @media (max-width: 400px)  {
+    @media (max-width: 420px)  {
 #name, #welcome, #making{
         
     font-size: 30px;
@@ -156,13 +174,29 @@
         }
     }
 
- @media (max-width: 400px)  {
+    @media (max-width: 280px)  {
+#name, #welcome, #making, .making-text{
+        
+    font-size: 22px;
+
+        }
+    }
+
+ @media (max-width: 420px)  {
     #making{
         
     width: 15rem;
     
         }
     }
+
+@media (max-width: 280px)  {
+#making{
+    
+width: 13rem;
+
+    }
+}
     
 
     #button-header{
@@ -179,7 +213,7 @@
         border-radius: 10px;
     }
 
-    @media (max-width: 400px)  {
+    @media (max-width: 420px)  {
         #button-header{
         
     width: 8em;
@@ -187,6 +221,13 @@
         }
     }
     
+    @media (max-width: 280px)  {
+        #button-header{
+        
+    width: 8em;
+    
+        }
+    }
     #text-button{
         color: white;
     }
@@ -200,7 +241,7 @@
                 </div> <br>
                 <h1 class="d-flex align-items-center justify-content-center mb-0 pb-2 mb-4" id="name">Dev_Brotherhood Technologies</h1>
             <div id="making" class="intro-heading text-uppercase scope-paxico d-flex align-items-center justify-content-center">
-                <h4 class="">Making a Better World</h4></div>
+                <h4 class="making-text">Making a Better World</h4></div>
             <a id="button-header" class="btn btn-xl text-uppercase js-scroll-trigger mt-5 pr-5 pl-5 pt-4 pb-4" href="#about">
                 <p class="m-0 d-flex align-items-center justify-content-center align-content-center " id="text-button"><b>Tell Me More</b></p></a>
         </div>
