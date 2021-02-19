@@ -112,15 +112,32 @@
             text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
             letter-spacing: 2px;
         }
+
+
+        @media (max-width: 2000px)  {
+            #toggle-bars{
+            
+                color: transparent;
+           
+            }
+        }
+        @media (max-width: 420px)  {
+            #toggle-bars{
+            
+                color: #707C8C;
+           
+            }
+        }
+       
     </style>
 
 <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar-background">
         <div class="container-fluid">
         <img class="img-fluid image-logo"  src="./images/logo.png" alt="Logo Brotherhood Engineering Software">
-        <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
+        <button class="navbar-toggler navbar-toggler-right collapsed d-flex justify-content-start align-items-center" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            
+            <i id="toggle-bars" class="fas fa-bars"></i>
         </button>
         <div class="navbar-collapse collapse" id="navbarResponsive" style="">
             <ul class="navbar-nav text-uppercase ml-auto mr-5">
@@ -264,6 +281,7 @@ width: 13rem;
 <style>
 .about{
     letter-spacing: 2px;
+    color: #021C26;
 }
 
 .section{
@@ -273,6 +291,10 @@ width: 13rem;
 #titulo{
     /* padding-right: 300px;
     padding-left: 300px; */
+}
+
+#services-class{
+    color: #052F40;
 }
 </style>
 
@@ -296,7 +318,7 @@ width: 13rem;
         <div class="row d-flex align-items-center justify-content-center text-justify ">
             <div class="col-lg-4 m-0 p-0 d-flex justify-content-center ">
                 <img  src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1353&q=80" 
-                    class="bd-placeholder-img rounded-circle" width="200" height="200"> 
+                    class="bd-placeholder-img rounded-circle" width="170" height="170">
             </div>
             
         </div>
@@ -318,8 +340,8 @@ width: 13rem;
         <div class="col-sm-6">
             <div class="card">
                 <div class="card-body ">
-                    <h5 class="card-title">TEAM</h5>
-                    <p class="card-text ">Dev_Brotherhood Technologies is made up of extremely dedicated people committed to
+                    <h5 id="services-class" class="card-title">TEAM</h5>
+                    <p class="card-text text-justify">Dev_Brotherhood Technologies is made up of extremely dedicated people committed to
                          making the world a better place through code. 
                         </p>
                     <div class="d-flex justify-content-center">
@@ -332,8 +354,8 @@ width: 13rem;
         <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">OUR WORK</h5>
-                    <p class="card-text">Dev_Brotherhood Technologies is proud to work in several areas including everything from the entertainment industry to the learning 
+                    <h5 id="services-class" class="card-title">OUR WORK</h5>
+                    <p class="card-text text-justify">Dev_Brotherhood Technologies is proud to work in several areas including everything from the entertainment industry to the learning 
                         sector. </p>
                     <div class="d-flex justify-content-center">
                         <img  src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fHRlYW0lMjB0ZWNobm9sb2d5fGVufDB8fDB8&auto=format&fit=crop&w=500&q=60" 
@@ -355,6 +377,7 @@ width: 13rem;
 <style>
     .fas{
         font-size: 3rem;
+        color: #021C26;
     }
 
     .card{
@@ -365,7 +388,7 @@ width: 13rem;
 <div class="container d-flex align-items-center justify-content-center">
     <h1 class="about pb-4">SERVICES</h1>
 </div>
-<p class="d-flex align-items-center justify-content-center pb-3">Coding everything from A to Z while never losing sight of your vision, and exceeding your expectations.</p>
+<p class="d-flex align-items-center justify-content-center pb-3 text-center pl-5 pr-5">Coding everything from A to Z while never losing sight of your vision, and exceeding your expectations.</p>
 
 <div class="container-fluid d-flex align-items-center justify-content-center">
     <div class="row ">
