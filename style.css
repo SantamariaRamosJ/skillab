@@ -1,0 +1,285 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin:0px;
+}
+
+/*navbar*/
+#navbar-background{
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: none;
+}
+
+@media (max-width: 420px)  {
+    #navbar-background{
+    background-color: #022340;
+}
+}
+
+@media (max-width: 280px)  {
+    #navbar-background{
+    background-color: #022340;
+}
+}
+
+#navbar-background.scrolled{
+    background-color: #022340;
+    transition: 0.5s ease;
+    }
+
+.image-logo{
+    width: 9em;
+    margin-left: 25px;
+    }
+    
+#nav-link-id{
+    color: white;
+}
+
+@media (max-width: 420px)  {
+.image-logo {
+    width: 7em;
+    margin:0;
+    }
+}
+
+
+@media (max-width: 280px)  {
+.image-logo {
+    width: 5em;
+}
+}
+
+.nav-link{
+    margin-right: 50px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    letter-spacing: 2px;
+}
+
+
+@media (max-width: 420px)  {
+    #toggle-bars{
+        color: #707C8C;
+    }
+}
+
+.navbar-toggler{
+    color: #707C8C;
+}
+
+.collapsing  {
+    transition: 0.5s ease;
+}
+
+
+/*navbar*/
+
+
+/*header*/
+.masthead{
+    text-align: center;
+    color: white;
+    background-image: url("https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy-downsized-large.gif");
+    /* opacity: .9; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    min-height: 30rem;
+    height: 100vh;
+    overflow-x: hidden;
+    }
+
+#welcome{
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#name{
+    font-size: 60px;
+    background: -webkit-linear-gradient(#30478C, #C4F2EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px black, 0 0 1em #30478C, 0 0 0.2em #C4F2EE;
+    }
+
+#making{
+    font-size: 45px;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px black;
+    border: 2px solid white;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px black;
+}
+
+@media (max-width: 420px)  {
+    #name, #welcome, #making{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 280px)  {
+    #name, #welcome, #making, .making-text{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 420px)  {
+    #making{
+        width: 15rem;
+    }
+}
+
+@media (max-width: 280px)  {
+    #making{
+        width: 13rem;
+
+}
+}
+
+#button-header{
+    background-color:#30478C ;
+    border-color:#30478C ;
+    border-radius: 10px;
+}
+
+#button-header:hover{
+    background-color:#304173;
+    border-color: #304173;
+    border-radius: 10px;
+}
+
+@media (max-width: 420px)  {
+    #button-header{
+        width: 8em;
+    }
+}
+
+@media (max-width: 280px)  {
+    #button-header{
+        width: 8em;
+
+    }
+}
+
+#text-button{
+    color: white;
+}
+
+#slogan{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+@media (max-width: 420px)  {
+    #slogan{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+/*end of header*/
+
+
+/*services*/     
+.about{
+    letter-spacing: 2px;
+    color: #021C26;
+}
+
+.section{
+    padding-bottom: 150px;
+    }
+
+#titulo{
+    /* padding-right: 300px;
+    padding-left: 300px; */
+}
+
+#services-class{
+    color: #052F40;
+}
+
+
+/*Team*/
+.fas{
+    font-size: 3rem;
+    color: #021C26;
+}
+
+.card{
+    border: none;
+}
+/*End of Team*/
+
+
+/*Contact*/
+#contact-out{
+    /* background-image: linear-gradient(90deg, #D7D7D9 0%, #707C8C 35%, #2D3540 100%); */
+    background-image: radial-gradient(circle, #D7D7D9 0%, #707C8C 80%);
+}
+#contact-in{
+    /* background-color: rgba(215, 215, 217,0.3); */
+    padding-bottom: 100px;
+
+}
+
+#contact-icons{
+    font-size: 25px;
+    color: white;
+}
+
+#btn-contact{
+    background-color: #021C26;
+    color: white;
+    padding-right:40px;
+    padding-left:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#text-contact{
+    /* color: white; */
+    
+}
+
+#contact-us{
+    /* color: white; */
+    letter-spacing: 2px;
+}
+/*End of Contact*/
+
+
+/*Footer*/
+#footer{
+    background-color: #021C26;
+}
+#footer-text{
+    color:white;
+}
+
+.contact-letter{
+    color: white;
+}
+
+#copyright{
+    color: white;
+}
+/*end of footer*/
+
+
+.parallax{
+    background: url('https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=647&q=80') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
