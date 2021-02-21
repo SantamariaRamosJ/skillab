@@ -83,7 +83,7 @@
 .masthead{
     text-align: center;
     color: white;
-    background-image: url("https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy-downsized-large.gif");
+    /* background-image: url("https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy-downsized-large.gif"); */
     /* opacity: .9; */
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -217,7 +217,15 @@
 .card{
     border: none;
 }
-/*End of Team*/
+
+@media (max-width: 1500px)  {
+    #multiCollapseExample1 {
+      position:absolute;
+    }
+}
+
+
+/*End of services*/
 
 
 /*Contact*/
@@ -229,6 +237,10 @@
     /* background-color: rgba(215, 215, 217,0.3); */
     padding-bottom: 100px;
 
+}
+
+#contact-space{
+padding-bottom: 64px;
 }
 
 #contact-icons{
