@@ -40,7 +40,7 @@
             aria-label="Toggle navigation">
             <i id="toggle-bars" class="fas fa-bars"></i>
         </button>
-        <div class="navbar-collapse collapse" id="navbarResponsive" style="">
+        <div class="navbar-collapse collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto mr-5">
             <li class="nav-item active">
                 <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
@@ -240,59 +240,88 @@ Resources
 </div>
 <p class="d-flex align-items-center justify-content-center pb-3 text-center pl-5 pr-5">Coding everything from A to Z while never losing sight of your vision, and exceeding your expectations.</p>
 
-<div id="accordion" class="container-fluid d-flex align-items-center justify-content-center">
+<div class="container-fluid d-flex align-items-center justify-content-center">
     <div class="row ">
         <div class="col-sm-4">
             <div class="card">
-                <div class="card-body ">
+                <div class="card-body pr-4">
                     <div class="d-flex justify-content-center pb-4">
                         <i class="fas fa-desktop"></i>
                     </div>
-                    <div id="headingOne" class="d-flex justify-content-center align-items-center p-0 m-0">
+                    <div class="d-flex justify-content-center align-items-center p-0 m-0">
                         
-                        <h5 class="card-title d-flex justify-content-center pb-3" data-toggle="collapse" 
-                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                         
-                         DEVELOPMENT
+                        <h5 class="card-title d-flex justify-content-center pb-3" data-toggle="collapse"
+                            href="#multiCollapseExample1" role="button" aria-expanded="false" 
+                            aria-controls="multiCollapseExample1">
+                        
+                            DEVELOPMENT
                         
                         </h5>
                     </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                        <p class="card-text d-flex justify-content-center text-center">Concept Development<br>
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <p class="card-text d-flex justify-content-center text-center">
+
+                            Concept Development<br>
                             Web/Desktop Development<br>
-                            Mobile Development</p>
+                            Mobile Development
+
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="card">
-                <div class="card-body">
+                <div class="card-body pr-4">
                     <div class="d-flex justify-content-center pb-4">
                         <i class="fas fa-highlighter"></i>
                     </div>
-                    <h5 class="card-title d-flex justify-content-center pb-3">RESPONSIVE DESIGN</h5>
-                    <p class="card-text d-flex justify-content-center text-center">UX/UI Design<br>
-                        Product Design<br>
-                        Software Architecture
-                        .</p>
-                    
+                    <div class="d-flex justify-content-center align-items-center p-0 m-0">
+                        <h5 class="card-title d-flex justify-content-center pb-3 text-center" data-toggle="collapse"
+                            href="#multiCollapseExample2" role="button" aria-expanded="false" 
+                            aria-controls="multiCollapseExample2">
+                        
+                            RESPONSIVE DESIGN
+
+                        </h5>
+                    </div>
+                        
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <p class="card-text d-flex justify-content-center text-center">
+
+                            UX/UI Design<br>
+                            Product Design<br>
+                            Software Architecture
+
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-sm-4 ">
             <div class="card">
-                <div class="card-body ">
+                <div class="card-body pr-4">
                     <div class="d-flex justify-content-center pb-4">
                         <i class="fas fa-hands-helping"></i> 
                     </div>
-                    <h5 class="card-title d-flex justify-content-center pb-3">CONSULTING</h5>
-                    <p class="card-text  d-flex justify-content-center text-center ">Software Consulting
-                        StartUp Consulting
-                        SaaS consulting
-                        <br >   
-                        .</p>
-                    
+                    <div class="d-flex justify-content-center align-items-center p-0 m-0">
+                        <h5 class="card-title d-flex justify-content-center pb-3" data-toggle="collapse"
+                            href="#multiCollapseExample3" role="button" aria-expanded="false" 
+                            aria-controls="multiCollapseExample3">
+                        
+                            CONSULTING
+                        
+                        </h5>
+                    </div>
+                    <div class="collapse multi-collapse" id="multiCollapseExample3">
+                        <p class="card-text  d-flex justify-content-center text-center">
+
+                            Software Consulting<br>
+                            StartUp Consulting<br>
+                            SaaS consulting
+
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
