@@ -31,8 +31,9 @@
     }
 
 .image-logo{
-    width: 9em;
+    width: 5em;
     margin-left: 25px;
+    
     }
 
 #nav-link-id{
@@ -41,7 +42,7 @@
 
 @media (max-width: 420px)  {
 .image-logo {
-    width: 7em;
+    width: 4em;
     margin:0;
     }
 }
@@ -49,7 +50,7 @@
 
 @media (max-width: 280px)  {
 .image-logo {
-    width: 5em;
+    width: 3em;
 }
 }
 
@@ -96,7 +97,8 @@
     }
 
 #welcome{
-    font-size: 45px;
+    font-size: 25px;
+    opacity: 0.5;
     letter-spacing: 2px;
     text-shadow: 2px 2px 2px black;
 }
@@ -109,7 +111,9 @@
     letter-spacing: 5px;
     font-weight: normal;
     color: #C4F2EE;
-    text-shadow: 1px 1px 2px black, 0 0 1em #30478C, 0 0 0.2em #C4F2EE;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px black, 0 0 1em #30478C, 0 0 0.3em #C4F2EE;
     }
 
 #making{
@@ -317,7 +321,7 @@
 #project-text{
     line-height : 30px;
     text-align: justify;
-     margin-right: 20px; 
+     margin-right: 20px;
 }
 
 @media (max-width: 420px)  {
@@ -326,7 +330,7 @@
         margin-right: 0px;
 
     }
-} 
+}
 
 #img-portfolio{
     width: 100%;
@@ -496,7 +500,7 @@
 
 #col-testimony {
     padding: 0 0.5rem;
-    
+
 }
 
 #testimony-title {
@@ -626,7 +630,7 @@ padding-bottom: 64px;
     font-size:30px;
     z-index:100;
   }
-  
+
   .whatsapp-icon {
     margin-top:13px;
   }
