@@ -415,11 +415,29 @@
     }
 } */
 
-
-
-
 /*End of portfolio*/
 
+
+/*technologies*/
+#technologies{
+    /* margin: 5rem 5rem 15rem; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: #272341;
+    /* margin-top: -7rem; */
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+#html5{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*testimony*/
 #bg-testimony{
