@@ -109,9 +109,10 @@
     -webkit-background-clip: text;
     /* -webkit-text-fill-color: transparent; */
     letter-spacing: 5px;
+    font-family: 'DotGothic16';
     font-weight: normal;
     color: #C4F2EE;
-    font-family: 'Fjalla One', sans-serif;
+    
     font-weight: 900;
     text-shadow: 1px 1px 2px black, 0 0 1em #30478C, 0 0 0.3em #C4F2EE;
     }
@@ -152,14 +153,14 @@
 }
 
 #button-header{
-    background-color:#30478C ;
-    border-color:#30478C ;
+    background-color:#0D0B0C;
+    border-color:#0D0B0C;
     border-radius: 10px;
 }
 
 #button-header:hover{
-    background-color:#304173;
-    border-color: #304173;
+    background-color:#171415;
+    border-color: #171415;
     border-radius: 10px;
 }
 
