@@ -188,6 +188,20 @@
 /*end of header*/
 
 /*about*/
+#first-text-about{
+    text-align: center;
+    margin-right: 70px ;
+    margin-left: 70px;
+}
+
+@media (max-width: 420px)  {
+    #first-text-about{
+        text-align: justify;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    }
+}
  .color-white{
      color: white; 
 }
@@ -197,6 +211,7 @@
     perspective: 1000px;
     cursor:pointer;
     margin-top: 50px;
+    
 }
 
 .flip-box-front, 
@@ -204,9 +219,11 @@
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    min-height: 475px;
-    transition:transform 0.7s cubic-bezier(.4,.2,.2,1);
+    min-height: 200px;
+    width: 100%;
+    transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
     backface-visibility: hidden;
+    /* opacity: 0.8; */
     }
 
 .flip-box-front {
@@ -244,13 +261,16 @@
     z-index: 2;
     transform: translateY(-50%)translateZ(60px) scale(.94);
     }
+
 .flip-box-header{
    font-size:30px;
    color: white;
+   text-shadow: 1px 1px black;
 }
 
 #p-flip-box{
     color: white;
+    text-shadow: 1px 1px black;
 }
 
 .flip-box p {
@@ -281,6 +301,33 @@
 
 /*end of about*/
 
+/*portfolio*/
+#img-portfolio{
+    width: 100%;
+    height: 22rem;
+    border-radius: 7px;
+    
+}
+
+#projects-button{
+    background-color: #30478C;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 7px;
+   
+}
+
+#projects-button:hover{
+    background-color: #304173;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 7px;
+   
+}
 
 /*services*/     
 .about{
