@@ -1,7 +1,8 @@
-*{
+*,{
     padding: 0px;
     box-sizing: border-box;
     margin:0px;
+    overflow-x: hidden;
 }
 
 /*navbar*/
@@ -33,7 +34,7 @@
     width: 9em;
     margin-left: 25px;
     }
-    
+
 #nav-link-id{
     color: white;
 }
@@ -83,7 +84,7 @@
 .masthead{
     text-align: center;
     color: white;
-    background-image: url("https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy-downsized-large.gif");
+    /* background-image: url("https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy-downsized-large.gif"); */
     /* opacity: .9; */
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -192,18 +193,12 @@
     text-align: center;
     margin-right: 70px ;
     margin-left: 70px;
+    line-height: 30px;
 }
 
-@media (max-width: 420px)  {
-    #first-text-about{
-        text-align: justify;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-    }
-}
+
  .color-white{
-     color: white; 
+     color: white;
 }
 
 .flip-box{
@@ -211,10 +206,10 @@
     perspective: 1000px;
     cursor:pointer;
     margin-top: 50px;
-    
+
 }
 
-.flip-box-front, 
+.flip-box-front,
 .flip-box-back{
     background-size: cover;
     background-position: center;
@@ -293,7 +288,7 @@
     margin-top: 25px;
     padding: 15px 20px;
     text-transform: uppercase;
-    } 
+    }
 
     #arrow-flip-box{
         color: white;
@@ -301,12 +296,35 @@
 
 /*end of about*/
 
+.hr{
+    margin-top: 100px;
+}
+
 /*portfolio*/
+@media (max-width: 420px)  {
+    #title-projects{
+        text-align: center;
+    }
+}
+#project-text{
+    line-height : 30px;
+    text-align: justify;
+     margin-right: 20px; 
+}
+
+@media (max-width: 420px)  {
+    #project-text {
+        text-align: justify;
+        margin-right: 0px;
+
+    }
+} 
+
 #img-portfolio{
     width: 100%;
-    height: 22rem;
+    height: auto;
     border-radius: 7px;
-    
+
 }
 
 #projects-button{
@@ -316,7 +334,7 @@
     padding-bottom: 15px;
     padding-top: 15px;
     border-radius: 7px;
-   
+
 }
 
 #projects-button:hover{
@@ -326,10 +344,10 @@
     padding-bottom: 15px;
     padding-top: 15px;
     border-radius: 7px;
-   
+
 }
 
-/*services*/     
+/*services*/
 .about{
     letter-spacing: 2px;
     color: #021C26;
@@ -359,9 +377,9 @@
     border: none;
 }
 
-#multiCollapseExample1 {
+/* #multiCollapseExample1 {
     margin-right: 20px;
-    
+
 }
 
 @media (max-width: 420px)  {
@@ -373,8 +391,8 @@
 @media screen and  (max-width: 1500px)  and (min-width: 420px)  {
     #multiCollapseExample1 {
       position:absolute;
-    
-  
+
+
     }
 }
 
@@ -388,7 +406,7 @@
     #multiCollapseExample3 {
       position:absolute;
     }
-}
+} */
 
 
 
@@ -429,7 +447,7 @@ padding-bottom: 64px;
 
 #text-contact{
     /* color: white; */
-    
+
 }
 
 #contact-us{
