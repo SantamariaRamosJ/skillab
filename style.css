@@ -1,8 +1,8 @@
-*,{
+*{
     padding: 0px;
     box-sizing: border-box;
     margin:0px;
-    overflow-x: hidden;
+   /* overflow-x: hidden ; */
 }
 
 /*navbar*/
@@ -430,6 +430,18 @@
     margin-bottom: 0;
 }
 
+/* #mongo{
+    height: auto;
+    width: 100%;
+} */
+
+
+@media(max-width:420px) {
+    .col-4{
+        width: 33.3%;
+        /* margin: 1rem; */
+    }
+}
 
 
 #html5{
