@@ -286,6 +286,7 @@
 #p-flip-box{
     color: white;
     text-shadow: 1px 1px black;
+    margin: 50px;
 }
 
 .flip-box p {
@@ -385,7 +386,7 @@
 }
 
 #services-class{
-    color: #052F40;
+    color: #0D0B0C;
 }
 
 
