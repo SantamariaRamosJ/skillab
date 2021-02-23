@@ -339,7 +339,8 @@ body{
 @media (max-width: 420px)  {
     #project-text {
         text-align: justify;
-        margin-right: 0px;
+        margin-right: 10px;
+        margin-left: 10px;
 
     }
 }
