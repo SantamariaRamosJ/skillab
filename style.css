@@ -35,6 +35,11 @@
     margin-left: 25px;
     
     }
+    
+.nav-link{
+    font-family: 'DotGothic16';
+}
+
 
 #nav-link-id{
     color: white;
@@ -184,6 +189,7 @@
 #slogan{
     padding-right: 40px;
     padding-left: 40px;
+    font-family: 'DotGothic16';
 }
 
 @media (max-width: 420px)  {
@@ -200,6 +206,7 @@
     margin-right: 70px ;
     margin-left: 70px;
     line-height: 30px;
+    
 }
 
 @media (max-width: 420px)  {
@@ -364,6 +371,8 @@
 .about{
     letter-spacing: 2px;
     color: #021C26;
+    font-family: 'DotGothic16';
+    font-weight: bold;
 }
 
 .section{
