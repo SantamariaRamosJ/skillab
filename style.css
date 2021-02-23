@@ -348,7 +348,7 @@
 }
 
 #projects-button{
-    background-color: #30478C;
+    background-color: #0D0B0C;
     color: white;
     font-weight: bold;
     padding-bottom: 15px;
@@ -358,7 +358,7 @@
 }
 
 #projects-button:hover{
-    background-color: #304173;
+    background-color: #171415;
     color: white;
     font-weight: bold;
     padding-bottom: 15px;
@@ -370,7 +370,7 @@
 /*services*/
 .about{
     letter-spacing: 2px;
-    color: #021C26;
+    color: #0D0B0C;
     font-family: 'DotGothic16';
     font-weight: bold;
 }
@@ -392,7 +392,7 @@
 /*Team*/
 .fas{
     font-size: 3rem;
-    color: #021C26;
+    color: #0D0B0C;
 }
 
 .card{
@@ -580,7 +580,19 @@ padding-bottom: 64px;
 }
 
 #btn-contact{
-    background-color: #021C26;
+    background-color: #0D0B0C;
+    color: white;
+    padding-right:40px;
+    padding-left:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+#btn-contact:hover{
+    background-color: #171415;
     color: white;
     padding-right:40px;
     padding-left:40px;
@@ -604,7 +616,7 @@ padding-bottom: 64px;
 
 /*Footer*/
 #footer{
-    background-color: #021C26;
+    background-color: #171415;
 }
 #footer-text{
     color:white;
