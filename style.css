@@ -93,6 +93,12 @@ html * {
 
 
 /*header*/
+#skillab-cont{
+   margin-top: 10rem;
+
+    
+}
+
 .masthead{
     text-align: center;
     color: white;
@@ -119,7 +125,7 @@ html * {
     background: -webkit-linear-gradient(#30478C, #C4F2EE);
     -webkit-background-clip: text;
     /* -webkit-text-fill-color: transparent; */
-    letter-spacing: 5px;
+    letter-spacing: 13px;
     font-family: 'DotGothic16';
     font-weight: normal;
     color: #C4F2EE;
@@ -136,6 +142,7 @@ html * {
     border: 2px solid white;
     box-sizing: border-box;
     box-shadow: 10px 5px 5px black;
+    
 }
 
 @media (max-width: 420px)  {
@@ -167,6 +174,8 @@ html * {
     background-color:#0D0B0C;
     border-color:#0D0B0C;
     border-radius: 10px;
+    
+   
     
 }
 
@@ -574,7 +583,42 @@ html * {
     color: #bdc4cc85;
 }
 
+/*FAQ*/
 
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    /* display: block; */
+    /* font-style: italic;
+    font-size: 1.5rem; */
+}
+.accordion-section .panel-default .panel-title a:after {
+    /* font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    color: #1f7de2; */
+    content: "\f106";
+    float: right;
+    margin-top: -12px;
+}
+
+.panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    color: #0D0D0D;
+    
+}
+
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    /* font-size: 1.2rem; */
+}
 
 
 
