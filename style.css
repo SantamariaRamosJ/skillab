@@ -10,11 +10,6 @@ html * {
 }
 
 
-@media (max-width: 420px)  {
-    body{
-        font-family: 'Lucida Console';
-    }
-}
 
 /*navbar*/
 #navbar-background{
@@ -208,7 +203,7 @@ html * {
 #slogan{
     padding-right: 40px;
     padding-left: 40px;
-    font-family: 'Lucida Console';
+    font-family: 'Anonymous Pro', monospace;
     align-items: center;
 }
 
@@ -216,7 +211,7 @@ html * {
     #slogan{
         padding-right: 10px;
         padding-left: 10px;
-        font-family: 'Lucida Console';
+        font-family: 'Anonymous Pro', monospace;
     }
 }
 /*end of header*/
@@ -227,9 +222,10 @@ html * {
     margin-right: 70px ;
     margin-left: 70px;
     line-height: 30px;
-    font-family: 'Lucida Console';
+    font-family: 'Anonymous Pro', monospace;
+  }
     
-}
+
 
 @media (max-width: 420px)  {
     #first-text-about{
@@ -395,7 +391,7 @@ html * {
 .about{
     letter-spacing: 2px;
     color: #0D0B0C;
-    font-family: 'DotGothic16';
+    font-family: 'Anonymous Pro', monospace;
     font-weight: bold;
 }
 
@@ -541,7 +537,7 @@ html * {
     font-size: 1rem;
     margin-bottom: 0;
     font-weight: bold;
-    font-family: 'IM Fell French Canon SC';
+    font-family: 'Anonymous Pro', monospace;
 }
 
 #card-text-testimony {
@@ -557,7 +553,7 @@ html * {
     text-align: center;
     line-height: 1.2rem;
     padding: 2rem 0 1.4rem 0;
-    font-family: 'Varela Round';
+    font-family: 'Anonymous Pro', monospace;
 }
 
 #name1 {
