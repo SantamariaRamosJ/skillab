@@ -164,6 +164,7 @@ body{
     background-color:#0D0B0C;
     border-color:#0D0B0C;
     border-radius: 10px;
+    
 }
 
 #button-header:hover{
@@ -174,7 +175,7 @@ body{
 
 @media (max-width: 420px)  {
     #button-header{
-        width: 8em;
+        width: 10em;
     }
 }
 
@@ -187,12 +188,20 @@ body{
 
 #text-button{
     color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 420px)  {
+    #text-button{
+        font-size: 17px;
+    }
 }
 
 #slogan{
     padding-right: 40px;
     padding-left: 40px;
-    font-family: 'DotGothic16';
+    font-family: 'Lucida Console';
+    align-items: center;
 }
 
 @media (max-width: 420px)  {
