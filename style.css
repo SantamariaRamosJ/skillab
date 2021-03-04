@@ -717,6 +717,10 @@ padding-bottom: 64px;
     z-index:100;
   }
 
-  .whatsapp-icon {
+.whatsapp-icon {
     margin-top:13px;
   }
+
+.newDiv{
+    color: blue;
+}
