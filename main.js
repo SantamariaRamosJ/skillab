@@ -11,14 +11,14 @@ $(document).ready(function() {
         var statusElm = $('.status')
         statusElm.empty()
 
-        if(name.length >= 10) {
+        if(name.length >= 2) {
             statusElm.append('<div>Name is valid</div>')
         } else {
             event.preventDefault()
             statusElm.append('<div>Name is not valid</div>')
         }
 
-        if(email.length > 5 && email.includes("@") && email.includes(".")) {
+        if(email.length > 2 && email.includes("@") && email.includes(".")) {
             statusElm.append('<div>Email is valid</div>')
         } else {
             event.preventDefault()
@@ -32,7 +32,7 @@ $(document).ready(function() {
             statusElm.append('<div>Subject is not valid</div>')
         }
 
-        if(textMessage.length >= 20) {
+        if(textMessage.length >= 2) {
             statusElm.append('<div class="newDiv">Message is valid</div>')
         } else {
             event.preventDefault()

@@ -135,7 +135,7 @@ html * {
     }
 
 #making{
-    font-size: 45px;
+    /* font-size: 45px; */
     font-style: italic;
     letter-spacing: 5px;
     text-shadow: 2px 2px 2px black;
@@ -145,17 +145,17 @@ html * {
     
 }
 
-@media (max-width: 420px)  {
+/* @media (max-width: 420px)  {
     #name, #welcome, #making{
         font-size: 30px;
     }
-}
+} */
 
-@media (max-width: 280px)  {
+/* @media (max-width: 280px)  {
     #name, #welcome, #making, .making-text{
         font-size: 22px;
     }
-}
+} */
 
 @media (max-width: 420px)  {
     #making{
@@ -167,16 +167,13 @@ html * {
     #making{
         width: 13rem;
 
-}
+    }
 }
 
 #button-header{
     background-color:#0D0B0C;
     border-color:#0D0B0C;
     border-radius: 10px;
-    
-   
-    
 }
 
 #button-header:hover{
@@ -493,7 +490,7 @@ html * {
 
 /*testimony*/
 #bg-testimony{
-    background-color: #bdc4cc85;
+    background-color: #f4f4f4;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -501,7 +498,7 @@ html * {
 
 #testimony-cont {
     max-width: 1050px;
-    background-color: #bdc4cc85;
+    background-color: #f4f4f4;
 }
 
 #happy-clients{
@@ -521,7 +518,9 @@ html * {
 
 #card-testimony{
     border-radius: 1rem;
-    box-shadow: 0px -10px 0px black;
+    box-shadow: -16px 10px 19px -6px rgba(153,153,153,0.83);
+    -webkit-box-shadow: -16px 10px 19px -6px rgba(153,153,153,0.83);
+    -moz-box-shadow: -16px 10px 19px -6px rgba(153,153,153,0.83);
 }
 
 @media(max-width:767px) {
@@ -626,7 +625,7 @@ html * {
 /*Contact*/
 #contact-out{
     /* background-image: linear-gradient(90deg, #D7D7D9 0%, #707C8C 35%, #2D3540 100%); */
-    background-image: radial-gradient(circle, #D7D7D9 0%, #707C8C 80%);
+    background-image: radial-gradient(circle, #D7D7D9 0%, #f4f4f4 80%);
 }
 #contact-in{
     /* background-color: rgba(215, 215, 217,0.3); */
@@ -640,7 +639,7 @@ padding-bottom: 64px;
 
 #contact-icons{
     font-size: 25px;
-    color: white;
+    color: black;
 }
 
 #btn-contact{
@@ -687,7 +686,7 @@ padding-bottom: 64px;
 }
 
 .contact-letter{
-    color: white;
+    color: black;
 }
 
 #copyright{
