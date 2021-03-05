@@ -517,6 +517,7 @@ html * {
 
 
 #card-testimony{
+    height: 510px;
     border-radius: 1rem;
     box-shadow: -16px 10px 19px -6px rgba(153,153,153,0.83);
     -webkit-box-shadow: -16px 10px 19px -6px rgba(153,153,153,0.83);
@@ -538,7 +539,6 @@ html * {
 
 #col-testimony {
     padding: 0 0.5rem;
-
 }
 
 #testimony-title {
@@ -722,4 +722,15 @@ padding-bottom: 64px;
 
 .newDiv{
     color: blue;
+}
+
+.status-name, .status-email, .status-subject, .status-message{
+    color: red;
+    margin: 0px;
+}
+
+.error-valid{
+    font-size: 1rem;
+    color: red;
+    margin-right: .5rem;
 }

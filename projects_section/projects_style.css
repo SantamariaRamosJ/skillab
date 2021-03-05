@@ -145,6 +145,7 @@ Global Styles
   background: var(--clr-primary-5);
   color: white;
 }
-.fas {
+
+.arrow-carousel{
   font-size: 1.5rem;
 }

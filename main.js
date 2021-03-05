@@ -8,35 +8,43 @@ $(document).ready(function() {
         var email = $('.email').val()
         var subject = $('.subject').val()
         var textMessage = $('.textMessage').val()
-        var statusElm = $('.status')
-        statusElm.empty()
+        var statusName = $('.status-name')
+        var statusEmail = $('.status-email')
+        var statusSubject = $('.status-subject')
+        var statusMessage= $('.status-message')
+
+        statusName.empty()
+        statusEmail.empty()
+        statusSubject.empty()
+        statusMessage.empty()
+
 
         if(name.length >= 2) {
-            statusElm.append('<div>Name is valid</div>')
+            statusName.append('')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Name is not valid</div>')
+            statusName.append('<div class="mt-0"><i class="error-valid fas fa-exclamation-circle"></i>Name is not valid</div>')
         }
 
         if(email.length > 2 && email.includes("@") && email.includes(".")) {
-            statusElm.append('<div>Email is valid</div>')
+            statusEmail.append('')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Email is not valid</div>')
+            statusEmail.append('<div class="mt-0"><i class=" error-valid fas fa-exclamation-circle"></i>Email is not valid</div>')
         }
 
         if(subject.length >= 2) {
-            statusElm.append('<div>Subject is valid</div>')
+            statusSubject.append('')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Subject is not valid</div>')
+            statusSubject.append('<div class="mt-0"><i class="error-valid fas fa-exclamation-circle"></i>Subject is not valid</div>')
         }
 
         if(textMessage.length >= 2) {
-            statusElm.append('<div class="newDiv">Message is valid</div>')
+            statusMessage.append('')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Message is not valid</div>')
+            statusMessage.append('<div class="mt-0"><i class=" error-valid fas fa-exclamation-circle"></i>Message is not valid</div>')
         }
     })
 })

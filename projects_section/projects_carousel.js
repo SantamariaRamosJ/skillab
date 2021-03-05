@@ -12,7 +12,7 @@ const reviews = [
     },
     {
         id: 2,
-        name: "Eleusis",
+        name: "Instituto Eleusis",
         job: "Website",
         img:
             "./images/eleusis.png",
@@ -22,8 +22,8 @@ const reviews = [
     },
     {
         id: 3,
-        name: "Alquimia personal",
-        job: "Mobile App (iOS & Android)",
+        name: "Alquimia Personal",
+        job: "Website",
         img:
             "./images/alquimia.png",
         text:
