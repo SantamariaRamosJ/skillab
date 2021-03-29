@@ -198,6 +198,7 @@ html * {
 #text-button{
     color: white;
     font-size: 20px;
+    font-weight: 800;
 }
 
 @media (max-width: 420px)  {
@@ -733,4 +734,26 @@ padding-bottom: 64px;
     font-size: 1rem;
     color: red;
     margin-right: .5rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+    
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #292c2e;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0D0B0C; 
 }
