@@ -66,14 +66,16 @@ html * {
 }
 
 .nav-link{
-    margin-right: 50px;
+    margin-right: 40px;
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     letter-spacing: 2px;
 }
 
-
+#toggle-bars{
+    color: #707C8C;
+}
 @media (max-width: 420px)  {
     #toggle-bars{
         color: #707C8C;
@@ -230,7 +232,7 @@ html * {
     margin-left: 70px;
     line-height: 30px;
     font-family: 'Anonymous Pro', monospace;
-  }
+}
     
 
 
@@ -242,8 +244,8 @@ html * {
     }
 }
 
- .color-white{
-     color: white;
+.color-white{
+    color: white;
 }
 
 .flip-box{
@@ -263,8 +265,7 @@ html * {
     width: 100%;
     transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
     backface-visibility: hidden;
-   
-    }
+}
 
 .flip-box-front {
     transform: rotateY(0deg);
@@ -303,9 +304,9 @@ html * {
     }
 
 .flip-box-header{
-   font-size:30px;
-   color: white;
-   text-shadow: 1px 1px black;
+    font-size:30px;
+    color: white;
+    text-shadow: 1px 1px black;
 }
 
 #p-flip-box{
@@ -315,8 +316,8 @@ html * {
 }
 
 .flip-box p {
-   font-size: 20px;
-   line-height: 1.5rem;
+    font-size: 20px;
+    line-height: 1.5rem;
 }
 
 .flip-box-img{
@@ -391,7 +392,6 @@ html * {
     padding-bottom: 15px;
     padding-top: 15px;
     border-radius: 7px;
-
 }
 
 /*services*/
@@ -415,7 +415,6 @@ html * {
     color: #0D0B0C;
 }
 
-
 /*Team*/
 .fas{
     font-size: 3rem;
@@ -424,6 +423,14 @@ html * {
 
 .card{
     border: none;
+}
+
+#development, #responsiveDesign, #consulting {
+    font-weight: 800;
+}
+
+#text-services1, #text-services2, #text-services3{
+
 }
 
 /* #multiCollapseExample1 {
@@ -502,7 +509,7 @@ html * {
     background-color: #f4f4f4;
 }
 
-#happy-clients{
+#happyClients{
     color:#021C26;
     padding-bottom: 15px;
     display: flex;
@@ -570,7 +577,7 @@ html * {
     font-weight: bold;
 }
 
-#position {
+#position1, #position2, #position3  {
     font-size: 0.7rem;
 }
 
@@ -620,6 +627,9 @@ html * {
     /* font-size: 1.2rem; */
 }
 
+#question1, #question2, #question3, #question4, #question5, #question6  {
+    font-weight: 800;
+}
 
 
 
@@ -643,7 +653,7 @@ padding-bottom: 64px;
     color: black;
 }
 
-#btn-contact{
+#btnContact{
     background-color: #0D0B0C;
     color: white;
     padding-right:40px;
@@ -655,7 +665,7 @@ padding-bottom: 64px;
 }
 
 
-#btn-contact:hover{
+#btnContact:hover{
     background-color: #171415;
     color: white;
     padding-right:40px;
@@ -666,12 +676,12 @@ padding-bottom: 64px;
     font-weight: bold;
 }
 
-#text-contact{
+#textContact{
     /* color: white; */
 
 }
 
-#contact-us{
+#contactUs{
     /* color: white; */
     letter-spacing: 2px;
 }
@@ -686,7 +696,7 @@ padding-bottom: 64px;
     color:white;
 }
 
-.contact-letter{
+.contactLetter{
     color: black;
 }
 
@@ -756,4 +766,41 @@ padding-bottom: 64px;
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #0D0B0C; 
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #292c2e; /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #292c2e;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30rem; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html onload="langModal()" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,7 +43,7 @@
     <title>SKILLAB Development</title>
 </head>
 
-<body>
+<body >
 <!--Navbar-->
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar-background">
         <img class="img-fluid image-logo"  src="./images/skillab-logo-w.png" alt="Logo Brotherhood Engineering Software">
@@ -75,6 +75,12 @@
                 <li class="nav-item">
                     <a class="nav-link nav-link-7 js-scroll-trigger" href="#contact-space">Contact Us</a>
                 </li>
+                <li class="mr-2">
+                    <a href="#eng" data-reload><img src="https://img.icons8.com/color/30/000000/usa.png"/></a></img>
+                </li>
+                <li>
+                    <a href="#es" data-reload><img src="https://img.icons8.com/color/30/000000/spain-2.png"/></a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -92,7 +98,7 @@
                 </div>
                 <div id="making" class="intro-heading text-uppercase scope-paxico d-flex align-items-center justify-content-center">
                     <h4 id="slogan" class="making-text typewrite" data-period="2000" 
-                    data-type='[ "Making a Better World", "Making a Better Life" ]'>
+                    data-type='["Making a Better World", "Making a Better Life"]'>
                     </h4><span class="wrap"></span>
                 </div>
                 <div class="mt-3"  >
@@ -107,17 +113,14 @@
     </header>
 
 <section id="about" class="section">
-    <button><a href="#eng" data-reload>English</a></button>
-    <button><a href="#es" data-reload>Español</a></button>
+    
 
-
-    <p id="hi">welcome everyone!!!</p>
 </section>
 
     <div  class="container d-flex align-items-center justify-content-center">
         <div class="row">
             <div class="col-lg-12 d-flex align-items-center justify-content-center mb-4">
-                <h2 class="about text-center">
+                <h2 id="aboutUs" class="about text-center">
                 Full-Service Web Development Company
                 </h2>
             </div>
@@ -137,7 +140,7 @@
                             <div class="flip-box-front d-flex justify-content-center align-items-center" 
                                 style="background-image: url(https://cdn.pixabay.com/photo/2019/09/25/09/36/team-4503157_960_720.jpg);" alt="imagen1">
                                 <div class="text-center inner color-white">
-                                    <h3 class="flip-box-header" style=" font-family: 'DotGothic16'; font-weight: bold;">
+                                    <h3 id="ourTeam" class="flip-box-header" style=" font-family: 'DotGothic16'; font-weight: bold;">
                                         Our Team
                                     </h3>
                                     <p id="p-flip-box">
@@ -147,11 +150,11 @@
                                 </div>
                             </div>
                             <div class="flip-box-back text-center d-flex justify-content-center align-items-center"
-                                style="background-color: #171415;">
+                                style="background-color: #291b20;">
                                 <div class="inner color-rgb(61, 42, 172)">
                                     <h3 class="flip-box-header">
                                     </h3>
-                                    <p id="p-flip-box">
+                                    <p id="p-flip-box" class="flip-box1">
                                         SKILLAB is made up of extremely 
                                         dedicated people committed to making the world a better place through code.
                                     </p>
@@ -164,7 +167,7 @@
                             <div class="flip-box-front d-flex justify-content-center align-items-center" 
                                 style="background-image: url(https://cdn.pixabay.com/photo/2016/02/19/11/19/computer-1209641_960_720.jpg);" alt="imagen1">
                                 <div class="text-center inner color-white">
-                                    <h3 class="flip-box-header" style=" font-family: 'DotGothic16'; font-weight: bold;">
+                                    <h3 class="flip-box-header ourWork" style=" font-family: 'DotGothic16'; font-weight: bold;">
                                         Our Work
                                     </h3>
                                     <p id="p-flip-box">
@@ -179,7 +182,7 @@
                                     <h3 class="flip-box-header">
                                         
                                     </h3>
-                                    <p id="p-flip-box">
+                                    <p id="p-flip-box" class="flip-box2">
                                         SKILLAB is proud to work in several areas
                                         including everything from the entertainment industry to the 
                                         learning sector.
@@ -194,7 +197,7 @@
                             <div class="flip-box-front d-flex justify-content-center align-items-center" 
                                 style="background-image: url(https://cdn.pixabay.com/photo/2015/09/02/12/43/phone-918633_960_720.jpg);" alt="imagen1">
                                 <div class="text-center inner color-white">
-                                    <h3 class="flip-box-header" style=" font-family: 'DotGothic16'; font-weight: bold;">
+                                    <h3 class="flip-box-header objective" style=" font-family: 'DotGothic16'; font-weight: bold;">
                                         Objective
                                     </h3>
                                     <p id="p-flip-box">
@@ -210,7 +213,7 @@
                                     <h3 class="flip-box-header">
                                     
                                     </h3>
-                                    <p id="p-flip-box">
+                                    <p id="p-flip-box" class="flip-box3">
                                         We are interested in help people through code, making solutions to let
                                         people's life easier.
                                     </p>
@@ -232,14 +235,14 @@
         
         <!-- title -->
         <div class="col-lg-12 d-flex align-items-center justify-content-center mb-4">
-            <h2 class="about text-center">
+            <h2 id="ourProjects" class="about text-center">
                 Our Projects
             </h2>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6" id="title-projects">
-                    <h2 class=" about mb-5">
+                    <h2 id="projectsTitle" class=" about mb-5">
                         Websites and web apps adjusted to your needs
                     </h2>
                     <p id="project-text">
@@ -271,7 +274,7 @@
                             </button>
                         </div>
                         <!-- random button -->
-                        <button class="random-btn">Surprise me</button>
+                        <button id="surpriseMe" class="random-btn">Surprise me</button>
                     </div>
                 </article>
                 </div>
@@ -285,11 +288,11 @@
 <!--Services-->
     <div class="container d-flex align-items-center justify-content-center">
         
-        <h2 class="about pb-4">
+        <h2 id="services" class="about pb-4">
             Services
         </h2>
     </div>
-    <p class="d-flex align-items-center justify-content-center pb-3 text-center pl-5 pr-5">
+    <p id="servicesDes" class="d-flex align-items-center justify-content-center pb-3 text-center pl-5 pr-5">
         Coding everything from A to Z while never losing sight of your vision, 
         and exceeding your expectations.
     </p>
@@ -302,16 +305,20 @@
                             <i class="fas fa-desktop"></i>
                         </div>
                         <div class="d-flex justify-content-center align-items-center p-0 m-0">
-                            <h5 class="card-title d-flex justify-content-center pb-3" data-toggle="collapse"
+                            <h5 id="development" class="card-title d-flex justify-content-center pb-3" data-toggle="collapse"
                                 href="#multiCollapseExample1" role="" aria-expanded="false" 
                                 aria-controls="multiCollapseExample1">
-                            <b>Development</b>
+                                Development
                             </h5>
                         </div>
                         <div class="">
-                            <p id="text-services" class="card-text d-flex justify-content-center text-center">
-                                Concept Development<br>
-                                Web/Desktop Development<br>
+                            <p id="text-services1" class="card-text d-flex justify-content-center text-center m-0">
+                                Concept Development
+                            </p>
+                            <p id="text-services2" class="card-text d-flex justify-content-center text-center m-0">
+                                Web/Desktop Development
+                            </p>
+                            <p id="text-services3" class="card-text d-flex justify-content-center text-center m-0">
                                 Mobile Development
                             </p>
                         </div>
@@ -325,17 +332,21 @@
                             <i class="fas fa-highlighter"></i>
                         </div>
                         <div class="d-flex justify-content-center align-items-center p-0 m-0">
-                            <h5 class="card-title d-flex justify-content-center pb-3 text-center" data-toggle="collapse"
+                            <h5 id="responsiveDesign" class="card-title d-flex justify-content-center pb-3 text-center" data-toggle="collapse"
                                 href="#multiCollapseExample2" role="" aria-expanded="false" 
                                 aria-controls="multiCollapseExample2">
-                                <b>Responsive Design</b>
+                                Responsive Design
                             </h5>
                         </div>
                         <div class="">
-                            <p class="card-text d-flex justify-content-center text-center">
-                                UX/UI Design<br>
-                                Product Design<br>
+                            <p id="uxDesign" class="card-text d-flex justify-content-center text-center m-0">
+                                UX/UI Design
+                            </p>
+                            <p id="softArc" class="card-text d-flex justify-content-center text-center m-0">
                                 Software Architecture
+                            </p>
+                            <p id="productDesign" class="card-text d-flex justify-content-center text-center m-0">
+                                Product Design
                             </p>
                         </div>
                     </div>
@@ -348,16 +359,20 @@
                             <i class="fas fa-hands-helping"></i> 
                         </div>
                         <div class="d-flex justify-content-center align-items-center p-0 m-0">
-                            <h5 class="card-title d-flex justify-content-center pb-3" data-toggle="collapse"
+                            <h5  id="consulting" class="card-title d-flex justify-content-center pb-3" data-toggle="collapse"
                                 href="#multiCollapseExample3" role="" aria-expanded="false" 
                                 aria-controls="multiCollapseExample3">
-                                <b>Consulting</b>
+                                Consulting
                             </h5>
                         </div>
                         <div class="">
-                            <p class="card-text  d-flex justify-content-center text-center">
-                                Software Consulting<br>
-                                StartUp Consulting<br>
+                            <p id="softwareConsulting" class="card-text  d-flex justify-content-center text-center m-0">
+                                Software Consulting
+                            </p>
+                            <p id="startup" class="card-text  d-flex justify-content-center text-center m-0">
+                                StartUp Consulting
+                            </p>
+                            <p id="saas" class="card-text  d-flex justify-content-center text-center m-0">
                                 SaaS consulting
                             </p>
                         </div>
@@ -373,7 +388,7 @@
 
 <!--Our Technology Stack-->
     <div class="container d-flex align-items-center justify-content-center">
-        <h2 class="about pb-5 text-center">Our Technology Stack</h2>
+        <h2 id="ourTechStack" class="about pb-5 text-center">Our Technology Stack</h2>
     </div>
     <div id="technologies">
         <div class=" container d-flex justify-content-center pb-5">
@@ -718,10 +733,10 @@
 <!--Testimony-->
     <div id="bg-testimony" class="container-fluid">
         <div>
-            <h6 id="happy-clients">
+            <h6 id="happyClients">
                 OUR HAPPY CLIENTS
             </h6>
-            <h2 class="about d-flex justify-content-center pb-5">
+            <h2 id="customerStories" class="about d-flex justify-content-center pb-5">
                 Customer Stories
             </h2>
         </div>
@@ -736,13 +751,15 @@
                             <div id="testimony-title" class="card-title">
                                 Luis Cambar
                             </div> 
+                            <p id="test1"> 
                             “Your entire staff’s committed attitude has helped me tremendously and that says a lot about your 
                             company. The website does a great job… I would not hesitate to recommend the service to any other 
                             company.”
+                            </p>
                         </div>
                         <div id="footer-testimony" class="footer"> 
                             <span id="name1"><br></span> 
-                            <span id="position">CEO of <a href="https://www.ecolucionesinternational.org/">Ecoluciones</a></span>
+                            <p id="position1"><span >CEO of Ecoluciones</span></p>
                         </div>
                     </div>
                 </div>
@@ -755,14 +772,16 @@
                             <div id="testimony-title" class="card-title">
                                 Marianela Vivas
                             </div> 
+                            <p id="test2">
                             “We believe so much in your product and think you have one of the most ethical, 
                             creative and responsive companies alive today….we will pledge you this….if and when 
                             anyone asks us about the best billing software and technical support out there, it is, 
                             without a doubt your company and staff…..thanks again for everything…”
+                            </p>
                         </div>
                         <div id="footer-testimony" class="footer"> 
                             <!-- <span id="name1">Micheal Smith<br></span>  -->
-                            <span id="position">Graphic designer</span> 
+                            <p id="position2">Graphic designer</p> 
                         </div>
                     </div>
                 </div>
@@ -775,14 +794,15 @@
                             <div id="testimony-title" class="card-title">
                                 Roberto Vecco
                             </div> 
-                            “I would like to thank you for your support during our recent project. 
+                            <p id="test3">“I would like to thank you for your support during our recent project. 
                             As you know when we entered into this project we had no previous experience with 
                             this software. So, I say without hesitation that if not for your understanding 
                             and guidance the project would not have left the ground floor!” 
+                            </p>
                         </div>
                         <div id="footer-testimony" class="footer"> 
                             <!-- <span id="name1">Micheal Smith<br></span>  -->
-                            <span id="position">CEO of <a href="https://eleusis.pe/">Instituto Eleusis</a></span> 
+                            <p id="position3"><span >CEO in Instituto Eleusis</span></p>
                         </div>
                     </div>
                 </div>
@@ -797,7 +817,7 @@
     <div>
 
         <!--FAQs-->
-        <h2 class="about d-flex justify-content-center pb-5" >
+        <h2 id="faqs" class="about d-flex justify-content-center pb-5" >
             FAQs
         </h2>
     </div>
@@ -808,15 +828,15 @@
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
-                        <h5 class="panel-title collapsed"  role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
-                            <b>Q: How much time-consuming it is to complete a website?</b>
-                            <a class="panel-title collapsed"  role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                        <h5 id="question1"  class="panel-title collapsed"  role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                            Q: How much time-consuming it is to complete a website?
+                            <a class="panel-title collapsed"  role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse0">
                             </a>
                         </h5>
                     </div>
                     <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
                         <div class="panel-body px-3 mb-4">
-                            <p>
+                            <p id="question1Text">
                                 The time limit of any web assignment is normally dictated by the client. 
                                 If you have any time limit in mind we will attempt to assemble it for you. 
                                 The main general delay in the making of a website is waiting for the content of the pages to 
@@ -827,15 +847,15 @@
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
-                        <h5 class="panel-title collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse0">
-                            <b>Q: Do you develop mobile app for all platforms?</b>
+                        <h5 id="question2" class="panel-title collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse0">
+                            Q: Do you develop mobile app for all platforms?
                             <a class="panel-title collapsed"  role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse0">
                             </a>
                         </h5>
                     </div>
                     <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
                         <div class="panel-body px-3 mb-4">
-                            <p>
+                            <p id="question2Text">
                                 Yes, we build mobile applications for all major mobile development platforms. 
                                 You can hire our developers for developing app for iOS (iPhone and iPad), Android, BlackBerry, 
                                 Symbian and Windows Mobile.
@@ -845,15 +865,15 @@
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
-                        <h5 class="panel-title collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse0">
-                            <b>Q: Do you also upload the application to app store?</b>
+                        <h5 id="question3" class="panel-title collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse0">
+                            Q: Do you also upload the application to app store?
                             <a class="panel-title collapsed"  role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse0">
                             </a>
                         </h5>
                     </div>
                     <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
                         <div class="panel-body px-3 mb-4">
-                            <p>
+                            <p id="question3Text">
                                 Yes, we do at free of cost! Nevertheless, you’ll have to pay the minimum amount of charge 
                                 (fees) by the main company.
                             </p>
@@ -862,24 +882,24 @@
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
-                        <h5 class="panel-title collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse0">
-                            <b>Q: What is your project development methodology?</b>
+                        <h5 id="question4" class="panel-title collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse0">
+                            Q: What is your project development methodology?
                             <a class="panel-title collapsed"  role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse0">
                             </a>
                         </h5>
                     </div>
                     <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                         <div class="panel-body px-3 mb-4">
-                            <p>
+                            <p id="question4Text">
                                 Every project is unique and requires a fresh approach, but most projects pass through the following project development cycle:
                                 <ul>
-                                    <li> Step 1: Requirement Gathering and Analysis</li> 
-                                    <li> Step 2: Consulting for the Right Solution</li> 
-                                    <li>  Step 3: Wire framing and Designing</li> 
-                                    <li>   Step 4: Development</li> 
-                                    <li>  Step 5: Testing & QA</li> 
-                                    <li>  Step 6: Support</li> 
-                                    <li>  Step 7: Deployment</li> 
+                                    <li id="li1"> Step 1: Requirement Gathering and Analysis</li> 
+                                    <li id="li2"> Step 2: Consulting for the Right Solution</li> 
+                                    <li id="li3">  Step 3: Wire framing and Designing</li> 
+                                    <li id="li4">   Step 4: Development</li> 
+                                    <li id="li5">  Step 5: Testing & QA</li> 
+                                    <li id="li6">  Step 6: Support</li> 
+                                    <li id="li7">  Step 7: Deployment</li> 
                                 </ul>
                             </p>
                         </div>
@@ -887,15 +907,15 @@
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
-                        <h5 class="panel-title collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse0">
-                            <b>Q: How much time-consuming it is to complete a website?</b>
+                        <h5 id="question5" class="panel-title collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse0">
+                            Q: How much time-consuming it is to complete a website?
                             <a class="panel-title collapsed"  role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse0">
                             </a>
                         </h5>
                     </div>
                     <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                         <div class="panel-body px-3 mb-4">
-                            <p>
+                            <p id="question5Text">
                                 The time limit of any web assignment is normally dictated by the client. 
                                 If you have any time limit in mind we will attempt to assemble it for you. 
                                 The main general delay in the making of a website is waiting for the content 
@@ -906,15 +926,15 @@
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
-                        <h5 class="panel-title collapsed pb-3" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse0">
-                            <b>Q: What do your websites cost?</b>
+                        <h5 id="question6" class="panel-title collapsed pb-3" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse0">
+                            Q: What do your websites cost?
                             <a class="panel-title collapsed"  role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse0">
                             </a>
                         </h5>
                     </div>
                     <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                         <div class="panel-body px-3 mb-4">
-                            <p>
+                            <p id="question6Text">
                                 To get a better idea of the cost of what you want to build, give us a quick phone call. We’ll ask you a 
                                 few questions about the nature of the site, what sort of interactivity the site will have, your graphic design
                                 needs, etc. Then we’ll be able to give you a ballpark figure. If you’re still interested, we’ll come to your
@@ -935,11 +955,11 @@
     <div id="contact-out">
         <div id="contact-in" class="container">
             <!-- Section heading -->
-            <h2 id="contact-us" class="h1-responsive  text-center my-0 pt-5 about mb-4">
+            <h2 id="contactUs" class="h1-responsive  text-center my-0 pt-5 about mb-4">
                 Contact Us
             </h2>
             <!-- Section description -->
-            <p id="text-contact" class="text-center w-responsive mx-auto mb-5">
+            <p id="textContact" class="text-center w-responsive mx-auto mb-5">
                 Send us a message and we will contact you
             </p>
             <div  class="row">
@@ -951,7 +971,7 @@
                             <!-- Grid column -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input name="name" type="text" id="contact-name" placeholder="Name and last name"  class="form-control name">
+                                    <input name="name" type="text" id="contactName" placeholder="Name and last name"  class="form-control name">
                                     <div class="status-name"></div>
                                     <br><!-- <label for="contact-name" class=""></label> -->
                                 </div>
@@ -960,7 +980,7 @@
                             <!-- Grid column -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input name="email" type="text" id="contact-email" placeholder="Email"  class="form-control email">
+                                    <input name="email" type="text" id="contactEmail" placeholder="Email"  class="form-control email">
                                     <div class="status-email"></div>
                                     <br><!-- <label for="contact-email" class=""></label> -->
                                 </div>
@@ -973,7 +993,7 @@
                             <!-- Grid column -->
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
-                                    <input name="subject" type="text" id="contact-Subject" placeholder="Subject"  class="form-control subject">
+                                    <input name="subject" type="text" id="contactSubject" placeholder="Subject"  class="form-control subject">
                                     <div class="status-subject"></div>
                                     <br><!-- <label for="contact-Subject" class=""></label> -->
                                 </div>
@@ -986,7 +1006,7 @@
                             <!-- Grid column -->
                             <div class="col-md-12">
                                 <div class="md-form">
-                                    <textarea name="message" id="contact-message" placeholder="Message"  class="form-control md-textarea textMessage" rows="3"></textarea>
+                                    <textarea name="message" id="contactMessage" placeholder="Message"  class="form-control md-textarea textMessage" rows="3"></textarea>
                                     <div class="status-message"></div>
                                     <br><!-- <label for="contact-message"></label> -->
                                 </div>
@@ -995,12 +1015,11 @@
                         </div>
                         <!-- Grid row -->
                         <div class="text-center text-md-left">
-                            <button type="submit" name="submit" id="btn-contact" class="btn submit">
+                            <button type="submit" name="submit" id="btnContact" class="btn submit">
                                 SEND MESSAGE
                             </button>
                         </div>
                     </form>
-                    
                 </div>
                 <!-- Grid column -->
                 <!-- Grid column -->
@@ -1008,19 +1027,19 @@
                     <ul class="list-unstyled mb-0">
                         <li>
                             <i  id="contact-icons" class="fas fa-map-marker-alt fa-2x blue-text"></i>
-                            <p class="contact-letter">
+                            <p id="contactLetter">
                                 Medellín, Colombia
                             </p>
                         </li>
                         <li>
                             <i id="contact-icons" class="fas fa-phone fa-2x mt-4 blue-text"></i>
-                            <p class="contact-letter">
+                            <p class="contactLetter">
                                 + 57  304 522 74 61
                             </p>
                         </li>
                         <li>
                             <i id="contact-icons" class="fas fa-envelope fa-2x mt-4 blue-text"></i>
-                            <p class="mb-0 contact-letter">
+                            <p class="mb-0 contactLetter">
                                 skillab.development@gmail.com
                             </p>
                         </li>
@@ -1046,6 +1065,26 @@
         </p>
     </footer>
 
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="text-center" style="color:white;">Selecciona un idioma:</p>
+        <div class="d-flex align-items-center justify-content-center col-sm-6 col-6 col-md-12 col-lg-12">
+            <a href="#eng" data-reload><img src="https://img.icons8.com/color/50/000000/usa.png"/></a></img>
+            <p class="ml-2 mb-0 text-center" style="color:white;">English</p>
+        </div>
+        <div class="d-flex align-items-center justify-content-center col-6 col-sm-6 col-md-12 col-lg-12">
+            <a href="#es" data-reload><img class="" src="https://img.icons8.com/color/50/000000/spain-2.png"/></a>
+            <p class=" ml-2 mb-0 text-center" style="color:white;">Español</p> 
+        </div>
+    </div>
+</div>
+
+
 <!--Scripts-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -1058,5 +1097,6 @@
 <script src="./script.js"></script>
 <script src="./projects_section/projects_carousel.js"></script>
 <script src= "./lang.js"></script>
+<script src="./openModal.js"></script>
 </body>
 </html>
