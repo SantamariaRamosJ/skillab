@@ -783,7 +783,7 @@ padding-bottom: 64px;
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #292c2e;
+    background-color: #171415;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
@@ -800,7 +800,7 @@ padding-bottom: 64px;
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: #aaa;
     text-decoration: none;
     cursor: pointer;
 }

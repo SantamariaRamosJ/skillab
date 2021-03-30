@@ -89,7 +89,7 @@ var language = {
         navIt5: "TECNOLOGÍAS",
         navIt6: "PREGUNTAS",
         navIt7: "CONTACTO",
-        aboutTitle: "Compañía de Desarrollo Web",
+        aboutTitle: "Skillab: Compañía de Desarrollo Web",
         aboutText: "SKILLAB es una empresa de desarrollo de software creativo que crea de todo, desde hermosos sitios web hasta innovadoras aplicaciones móviles. Estamos orgullosos de nuestra excelencia en ingeniería y del trabajo que hacemos. Mientras nos mantenemos actualizados con las últimas tecnologías, siempre estamos buscando nuevos proyectos interesantes y desafiantes para emprender. Si le gusta pensar de manera innovadora, nos encantaría trabajar con usted.",
         slogan: "Haciendo un Mundo Mejor",
         ourTeam: "Nuestro Equipo",

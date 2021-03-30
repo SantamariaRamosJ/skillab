@@ -11,6 +11,12 @@ span.onclick = function() {
 //Run the modal when the browser complete load
 window.addEventListener('DOMContentLoaded', (event) => {
     modal.style.display = "block";
+    if (window.location.hash === "#es"){
+        modal.style.display="none";
+    }
+    if (window.location.hash === "#eng"){
+        modal.style.display="none";
+    }
 });
 
 // When the user clicks anywhere outside of the modal, close it
@@ -19,6 +25,9 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+
+
 
 
 
