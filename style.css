@@ -44,11 +44,13 @@ html * {
     
 .nav-link{
     font-family: 'Anonymous Pro', monospace;
+    text-decoration: none;
 }
 
 
 #nav-link-id{
     color: white;
+    text-decoration: none;
 }
 
 @media (max-width: 420px)  {
@@ -71,6 +73,7 @@ html * {
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     letter-spacing: 2px;
+    text-decoration: none;
 }
 
 
@@ -718,6 +721,8 @@ padding-bottom: 64px;
 
 .whatsapp-icon {
     margin-top:13px;
+    text-decoration: none;
+
   }
 
 .newDiv{
